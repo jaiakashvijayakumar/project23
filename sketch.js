@@ -81,7 +81,7 @@ function draw() {
   if(keyPressed(packageSprite)){
 	console.log("11111");
 
-	  packageSprite.velocityY=0.1;
+	  packageSprite.velocityY=2;
 
 	 
   }
@@ -100,7 +100,7 @@ function keyPressed(packageSprite) {
     // Look at the hints in the document and understand how to make the package body fall only on press of the Down arrow key.
 	console.log("2222");
 
-	packageSprite.velocityY  =6;
+	packageSprite.velocityY  =2;
 	//object2.velocityY= 1;
  
 	return true;
